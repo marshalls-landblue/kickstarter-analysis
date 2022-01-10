@@ -48,11 +48,20 @@ This project was pretty straightforward, so I did not encounter any real difficu
 
 - What are two conclusions you can draw about the Outcomes based on Launch Date?
 
-1. More campaigns are successful when launched in the spring-summer months of the year. I
+1. More campaigns are successful when launched in the spring-summer months of the year. Yes, there are a lot more campaigns launched in total; but if you compare the trend of failed/canceled campaigns to that of the successful ones, it still has a substantial jump. This suggests that perhaps more people will back theater campaigns in a season when they are more interested in going to the theater.
+
+2. The amount of canceled campaigns is very low and doesn't seem to have any correlation to the launch date at all.
 
 - What can you conclude about the Outcomes based on Goals?
 
+Campaigns with lower goals have a higher success rate, and trend down as the goal amount inreases, except for goals between 35000 and 45000 where there are more successful than failing.
+
 - What are some limitations of this dataset?
 
+There are many limitations to this analyis. For one, there are a lot less campaigns with higher value goals. That makes our Outcomes based on Goals chart less reliable to draw conclusions off of, because some of the bins of data have a much smaller sample size which is more prone to error or outliers.
+
 - What are some other possible tables and/or graphs that we could create?
-ysis
+
+I think it would be interesting to look at theater "Theater" Kickstarter Success percentage compared to Kickstarter campaigns as a whole. We could easily do this by calculating the percentage succeeded for the whole dataset and creating a pivot table.
+
+I think it would also be interesting to utilize the geographical information provided, and compare different countries.
